@@ -21,6 +21,7 @@ public class Vehicles{
 public class Car : Vehicles{
     public int seats;
 
+    // add another class variable seats, and initialize in the constructor
     public Car(string brand, string color, int seats) : base(brand, color){
         this.brand = brand;
         this.color = color;
